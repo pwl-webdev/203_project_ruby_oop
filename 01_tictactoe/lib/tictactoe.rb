@@ -2,6 +2,7 @@ class TicTacToe
 	require_relative 'board.rb'
 	require_relative 'player.rb'
 
+	attr_reader :player1, :player2, :board
 	def initialize ()
 		@input = nil
 		@player1 = nil

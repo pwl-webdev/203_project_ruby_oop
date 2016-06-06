@@ -1,5 +1,6 @@
 class Board
 	require_relative 'player.rb'
+	attr_reader :board
 	def initialize()
 		@board = [[" ", " "," "],[" ", " "," "],[" ", " "," "]]
 
